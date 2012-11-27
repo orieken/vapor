@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/pedronascimento?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        U3RlYW1fTGFuZ3VhZ2U9ZW5nbGlzaDsgZXhwaXJlcz1TdW4sIDI2LU5vdi0y
+        MDE3IDA1OjI1OjM4IEdNVDsgcGF0aD0v
+      - !binary |-
+        c2Vzc2lvbmlkPU9EWTBNalUxTkRVMzsgcGF0aD0v
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        VHVlLCAyNyBOb3YgMjAxMiAwNjoyNTozOCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw7IGNoYXJzZXQ9dXRmLTg=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjE0MQ==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAyNyBOb3YgMjAxMiAwNToyNTozOSBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MzI1NTI2OTUyMA==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><profile>\r\n\t<steamID64>76561198021477729</steamID64>\r\n\t<steamID><![CDATA[Lunks]]></steamID>\r\n\t<onlineState>online</onlineState>\r\n\t<stateMessage><![CDATA[Online]]></stateMessage>\r\n\t<privacyState>public</privacyState>\r\n\t<visibilityState>3</visibilityState>\r\n\t<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/4c/4c76064be169987500e4c7e228aabe3e33e1df47.jpg]]></avatarIcon>\r\n\t<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/4c/4c76064be169987500e4c7e228aabe3e33e1df47_medium.jpg]]></avatarMedium>\r\n\t<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/4c/4c76064be169987500e4c7e228aabe3e33e1df47_full.jpg]]></avatarFull>\r\n\t<vacBanned>0</vacBanned>\r\n\t<tradeBanState>None</tradeBanState>\r\n\t<isLimitedAccount>0</isLimitedAccount>\r\n\t<customURL><![CDATA[pedronascimento]]></customURL>\r\n\t<memberSince>February
+        21, 2010</memberSince>\r\n\t<steamRating>4.9</steamRating>\r\n\t<hoursPlayed2Wk>15.7</hoursPlayed2Wk>\r\n\t<headline><![CDATA[]]></headline>\r\n\t<location><![CDATA[Brazil]]></location>\r\n\t<realname><![CDATA[]]></realname>\r\n\t<summary><![CDATA[No
+        information given.]]></summary>\r\n \t<mostPlayedGames>\r\n\t\t<mostPlayedGame>\r\n\t\t\t<gameName><![CDATA[Dota
+        2]]></gameName>\r\n\t\t\t<gameLink><![CDATA[http://steamcommunity.com/app/570]]></gameLink>\r\n\t\t\t<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/570/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg]]></gameIcon>\r\n\t\t\t<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/570/d4f836839254be08d8e9dd333ecc9a01782c26d2.jpg]]></gameLogo>\r\n\t\t\t<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/570/d4f836839254be08d8e9dd333ecc9a01782c26d2_thumb.jpg]]></gameLogoSmall>\r\n\t\t\t<hoursPlayed>15.7</hoursPlayed>\r\n\t\t\t<hoursOnRecord>26.7</hoursOnRecord>\r\n\t\t</mostPlayedGame>\r\n\t</mostPlayedGames>\r\n\r\n\r\n\t<weblinks>\r\n\t\t<weblink>\r\n\t\t\t<link><![CDATA[http://twitter.com/lunks/]]></link>\r\n\t\t\t<title><![CDATA[Twitter]]></title>\r\n\t\t</weblink>\r\n\t</weblinks>\r\n\r\n</profile>"
+    http_version: 
+  recorded_at: Tue, 27 Nov 2012 05:25:39 GMT
+recorded_with: VCR 2.3.0

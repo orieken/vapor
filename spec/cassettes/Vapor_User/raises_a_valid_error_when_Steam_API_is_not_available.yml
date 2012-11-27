@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/pedronascimento?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 503
+      message: !binary |-
+        U2VydmljZSBVbmF2YWlsYWJsZQ==
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        VmFybmlzaA==
+      !binary "UmV0cnktQWZ0ZXI=":
+      - !binary |-
+        MA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Nzk4
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VHVlLCAyNyBOb3YgMjAxMiAwNToxOTowNCBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MzI1NDkxNjQ5Nw==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+    body:
+      encoding: US-ASCII
+      string: ! "\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html>\n<html>\n
+        \ <head>\n    <title>Sorry!</title>\n  </head>\n  <body style=\"background-color:
+        #000000; color: #ffffff;font-family: Arial, Helvetica, sans-serif; font-size:
+        12px; background-image: url( 'http://cdn.store.steampowered.com/public/images/v5/content_bg.png');
+        background-repeat: repeat-x; background-position: top;) \">\n    <div style=\"width:
+        940px; margin: 16px auto;\">\n      <img src=\"http://cdn.store.steampowered.com/public/images/v5/globalheader_logo.png\"
+        style=\"float: right; margin-top: 30px;\">\n      <br><h1>Sorry</h1>\n      <h2>The
+        Steam Community is currently unavailable.  Please try again later.</h2>\n
+        \     <br><br><br><br><br>\n      <p>Error 503 Service Unavailable</p>\n      <p>XID:
+        3254916497</p>\n    </div>\n  </body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 27 Nov 2012 05:19:04 GMT
+recorded_with: VCR 2.3.0
