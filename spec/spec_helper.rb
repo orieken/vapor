@@ -4,10 +4,12 @@
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require 'vapor'
+require 'vcr'
 
-VCR.config do |config|
+VCR.configure do |config|
   config.cassette_library_dir     = 'spec/cassettes'
-  config.stub_with                :webmock
+  config.hook_into                :webmock
   config.default_cassette_options = { :record => :new_episodes }
 end
 
