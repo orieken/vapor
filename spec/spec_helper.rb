@@ -5,10 +5,10 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-VCR.config do |c|
-  c.cassette_library_dir     = 'spec/cassettes'
-  c.stub_with                :webmock
-  c.default_cassette_options = { :record => :new_episodes }
+VCR.config do |config|
+  config.cassette_library_dir     = 'spec/cassettes'
+  config.stub_with                :webmock
+  config.default_cassette_options = { :record => :new_episodes }
 end
 
 RSpec.configure do |config|
