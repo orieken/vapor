@@ -1,7 +1,8 @@
 require "vapor/version"
 require 'vapor/api'
-require 'vapor/user'
 require 'vapor/crawler'
+require 'vapor/user'
+require 'vapor/game'
 require 'vapor/games_list'
 
 module Vapor
