@@ -1,6 +1,5 @@
 require 'httpclient'
 require 'rexml/document'
-require 'vapor/api'
 module Vapor
   class User
     attr_reader :steam_id
@@ -22,7 +21,7 @@ module Vapor
     end
 
     def client
-      @client ||= Vapor::API.new.client
+      Vapor.api.client
     end
   end
 end
