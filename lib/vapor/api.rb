@@ -32,4 +32,9 @@ module Vapor
       JSON.parse(response.body)["response"]["players"].first.symbolize_keys
     end
   end
+  class APINotAvailableError < StandardError
+    def initialize
+      super("Steam API is currently unavailable")
+    end
+  end
 end

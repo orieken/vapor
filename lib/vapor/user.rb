@@ -1,5 +1,6 @@
 require 'httpclient'
 require 'rexml/document'
+require 'vapor/api'
 module Vapor
   class User
     attr_reader :steam_id
@@ -22,12 +23,6 @@ module Vapor
 
     def client
       @client ||= HTTPClient.new
-    end
-  end
-
-  class APINotAvailableError < StandardError
-    def initialize
-      super("Steam API is currently unavailable")
     end
   end
 end
