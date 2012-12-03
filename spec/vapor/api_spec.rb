@@ -3,7 +3,7 @@ require 'vapor/api'
 
 module Vapor
   describe API do
-    let(:api) { Vapor::API.new }
+    let(:api) { API.new }
     let(:user) { User.new(76561198021477729) }
 
     it 'fetches player summaries for an user', :vcr do
