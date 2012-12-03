@@ -13,7 +13,16 @@ module Vapor
       @steam_id = @steam_id.to_i
     end
 
+    def profile_url
+      @profile_url ||= player_info[:profileurl]
+    end
+
     private
+
+    def player_info
+      @player_info ||= Vapor.api.player_summaries_for(self)
+    end
+
     def fetch_real_id(username)
       user_page = client.get("http://steamcommunity.com/id/#{username}?xml=1")
       raise APINotAvailableError if user_page.status == 503

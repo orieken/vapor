@@ -9,5 +9,12 @@ module Vapor
     it 'fetches the right Steam Id using the users webpage', :vcr do
       User.new("pedronascimento").steam_id.should == 76561198021477729
     end
+
+    describe "profile info", :vcr do
+      it "has a profile url" do
+        User.new(76561198021477729).profile_url.should == "http://steamcommunity.com/id/pedronascimento/"
+      end
+
+    end
   end
 end
