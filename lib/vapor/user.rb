@@ -22,7 +22,7 @@ module Vapor
     end
 
     def client
-      @client ||= HTTPClient.new
+      @client ||= Vapor::API.new.client
     end
   end
 end
