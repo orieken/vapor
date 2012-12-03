@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=8BDCBAAA1E46E207931AA2950110AEB2&steamids=76561198021477729
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBEZWMgMjAxMiAxNDozMzozMCBHTVQ=
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        TW9uLCAwMyBEZWMgMjAxMiAxNDozMzozMCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        ODE0
+    body:
+      encoding: US-ASCII
+      string: ! "{\n\t\"response\": {\n\t\t\"players\": [\n\t\t\t{\n\t\t\t\t\"steamid\":
+        \"76561198021477729\",\n\t\t\t\t\"communityvisibilitystate\": 3,\n\t\t\t\t\"profilestate\":
+        1,\n\t\t\t\t\"personaname\": \"Lunks\",\n\t\t\t\t\"lastlogoff\": 1354422120,\n\t\t\t\t\"profileurl\":
+        \"http://steamcommunity.com/id/pedronascimento/\",\n\t\t\t\t\"avatar\": \"http://media.steampowered.com/steamcommunity/public/images/avatars/ac/acacd3fbbe1c9a38037575113f58d18981ed55eb.jpg\",\n\t\t\t\t\"avatarmedium\":
+        \"http://media.steampowered.com/steamcommunity/public/images/avatars/ac/acacd3fbbe1c9a38037575113f58d18981ed55eb_medium.jpg\",\n\t\t\t\t\"avatarfull\":
+        \"http://media.steampowered.com/steamcommunity/public/images/avatars/ac/acacd3fbbe1c9a38037575113f58d18981ed55eb_full.jpg\",\n\t\t\t\t\"personastate\":
+        0,\n\t\t\t\t\"primaryclanid\": \"103582791429521408\",\n\t\t\t\t\"timecreated\":
+        1266769126,\n\t\t\t\t\"loccountrycode\": \"BR\"\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 14:33:30 GMT
+recorded_with: VCR 2.3.0
