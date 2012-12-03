@@ -37,4 +37,51 @@ http_interactions:
         1266769126,\n\t\t\t\t\"loccountrycode\": \"BR\"\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
     http_version: 
   recorded_at: Tue, 27 Nov 2012 06:16:25 GMT
+- request:
+    method: get
+    uri: http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=&steamids=76561198021477729
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 401
+      message: !binary |-
+        VW5hdXRob3JpemVk
+    headers:
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        OTg=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PVVURjg=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAwMyBEZWMgMjAxMiAxNjo1NzoxMyBHTVQ=
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        TW9uLCAyNiBKdWwgMTk5NyAwNTowMDowMCBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bm8tY2FjaGUsbXVzdC1yZXZhbGlkYXRl
+    body:
+      encoding: US-ASCII
+      string: ! '<html>
+
+        <head>
+
+        <title>401 Unauthorized</title>
+
+        </head>
+
+        <body>
+
+        <h1>Unauthorized</h1>
+
+        </body>
+
+        </html>'
+    http_version: 
+  recorded_at: Mon, 03 Dec 2012 16:57:11 GMT
 recorded_with: VCR 2.3.0
