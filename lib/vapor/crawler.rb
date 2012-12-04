@@ -1,5 +1,4 @@
 require 'nokogiri'
-      require 'pry'
 module Vapor
   class Crawler
     def games_for(user)
