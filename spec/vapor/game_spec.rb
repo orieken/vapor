@@ -12,8 +12,8 @@ module Vapor
     it "finds the correct id" do
       game.url.should == "http://steamcommunity.com/app/570"
     end
-    it "finds the correct id" do
-      game.time_spent.should == 44.6
+    it "finds the correct time spent in hours" do
+      game.time_spent_in_hours.should == 68.5
     end
   end
 end
