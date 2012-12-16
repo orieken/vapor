@@ -16,5 +16,11 @@ module Vapor
       end
 
     end
+    describe "games", :vcr do
+      let(:games) {User.new("pedronascimento").games}
+      it "fetches the right amount of games" do
+        games.count.should == 111
+      end
+    end
   end
 end

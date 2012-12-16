@@ -17,6 +17,10 @@ module Vapor
       @profile_url ||= player_info[:profileurl]
     end
 
+    def games
+      @games ||= GamesList.new(self).games
+    end
+
     private
 
     def player_info
