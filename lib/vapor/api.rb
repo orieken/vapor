@@ -2,7 +2,11 @@ require 'active_support/all'
 require 'json'
 module Vapor
   class API
-    STEAM_API_KEY = ENV['STEAM_API_KEY']
+    class << self
+      def key
+        @key ||= ENV['STEAM_API_KEY']
+      end
+    end
     BASE_URL="http://api.steampowered.com"
     attr_reader :client
 
@@ -17,7 +21,7 @@ module Vapor
     private
     def fetch(url, options)
       version = options.delete :version
-      options.merge! key: STEAM_API_KEY
+      options.merge! key: self.class.key
       response = client.get("#{BASE_URL}/#{url}/#{version}/?#{normalize_params options}")
       parse_and_extract_response response
     end
