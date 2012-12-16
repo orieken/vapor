@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.name          = "vapor"
   gem.version       = Vapor::VERSION
   gem.authors       = ["Pedro Nascimento"]
-  gem.email         = ["pnascimento@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["pedro@helabs.com.br"]
+  gem.description   = %q{Retrieve user information from Steam.}
+  gem.summary       = %q{Vapor shows what games an user has played on Steam, and for how long.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
