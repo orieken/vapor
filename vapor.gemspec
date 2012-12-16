@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["pedro@helabs.com.br"]
   gem.description   = %q{Retrieve user information from Steam.}
   gem.summary       = %q{Vapor shows what games an user has played on Steam, and for how long.}
-  gem.homepage      = ""
+  gem.homepage      = "http://helabs.com.br/opensource"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
