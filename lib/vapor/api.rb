@@ -6,6 +6,10 @@ module Vapor
       def key
         @key ||= ENV['STEAM_API_KEY']
       end
+
+      def key=(key)
+        @key = key
+      end
     end
     BASE_URL="http://api.steampowered.com"
     attr_reader :client
