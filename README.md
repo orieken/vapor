@@ -1,7 +1,6 @@
 # Vapor
 
-TODO: Write a gem description
-
+Vapor grants you an easy and straightforward access to Steam info.
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +17,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Vapor::API.key = "MYSTEAMAPI"
+Vapor::User.new('pedronascimento').games
+#List of games
+```
+
+## Features/Problems
+
+* It doesn't get lots of info, just the ones I need for now.
+* It relies on the XML output on Steam, which is not reliable at all.
+* It is way simples than steam-condenser.
 
 ## Contributing
 
