@@ -27,7 +27,7 @@ Vapor::User.new('pedronascimento').games
 
 * It doesn't get lots of info, just the ones I need for now.
 * It relies on the XML output on Steam, which is not reliable at all.
-* It is way simples than steam-condenser.
+* It is way simpler than steam-condenser.
 
 ## Contributing
 
