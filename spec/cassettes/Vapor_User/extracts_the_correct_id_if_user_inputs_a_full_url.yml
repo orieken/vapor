@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/http://steamcommunity.com/id/pedronascimento?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        U3RlYW1fTGFuZ3VhZ2U9ZW5nbGlzaDsgZXhwaXJlcz1Nb24sIDE4LURlYy0y
+        MDE3IDIwOjIyOjA5IEdNVDsgcGF0aD0v
+      - !binary |-
+        c2Vzc2lvbmlkPU16RTFNVE0xT1RrMDsgcGF0aD0v
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMToyMjowOSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTQ0
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMDoyMjoxMCBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MjE3OTQwOTM3OQ==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><response><error><![CDATA[The
+        specified profile could not be found.]]></error></response>
+    http_version: 
+  recorded_at: Wed, 19 Dec 2012 20:22:12 GMT
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/pedronascimento?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        U3RlYW1fTGFuZ3VhZ2U9ZW5nbGlzaDsgZXhwaXJlcz1UdWUsIDE5LURlYy0y
+        MDE3IDE2OjE1OjE0IEdNVDsgcGF0aD0v
+      - !binary |-
+        c2Vzc2lvbmlkPU9EWTVOamd5T0RVMjsgcGF0aD0v
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        VGh1LCAyMCBEZWMgMjAxMiAxNzoxNToxNCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw7IGNoYXJzZXQ9dXRmLTg=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjkwMA==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        VGh1LCAyMCBEZWMgMjAxMiAxNjoxNToxNSBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MjExOTcyMTI3MA==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><profile>\r\n\t<steamID64>76561198021477729</steamID64>\r\n\t<steamID><![CDATA[Lunks]]></steamID>\r\n\t<onlineState>online</onlineState>\r\n\t<stateMessage><![CDATA[Online]]></stateMessage>\r\n\t<privacyState>public</privacyState>\r\n\t<visibilityState>3</visibilityState>\r\n\t<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/ac/acacd3fbbe1c9a38037575113f58d18981ed55eb.jpg]]></avatarIcon>\r\n\t<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/ac/acacd3fbbe1c9a38037575113f58d18981ed55eb_medium.jpg]]></avatarMedium>\r\n\t<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/ac/acacd3fbbe1c9a38037575113f58d18981ed55eb_full.jpg]]></avatarFull>\r\n\t<vacBanned>0</vacBanned>\r\n\t<tradeBanState>None</tradeBanState>\r\n\t<isLimitedAccount>0</isLimitedAccount>\r\n\t<customURL><![CDATA[pedronascimento]]></customURL>\r\n\t<memberSince>February
+        21, 2010</memberSince>\r\n\t<steamRating>3.5</steamRating>\r\n\t<hoursPlayed2Wk>11.2</hoursPlayed2Wk>\r\n\t<headline><![CDATA[]]></headline>\r\n\t<location><![CDATA[Brazil]]></location>\r\n\t<realname><![CDATA[]]></realname>\r\n\t<summary><![CDATA[No
+        information given.]]></summary>\r\n \t<mostPlayedGames>\r\n\t\t<mostPlayedGame>\r\n\t\t\t<gameName><![CDATA[Dota
+        2]]></gameName>\r\n\t\t\t<gameLink><![CDATA[http://steamcommunity.com/app/570]]></gameLink>\r\n\t\t\t<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/570/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg]]></gameIcon>\r\n\t\t\t<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/570/d4f836839254be08d8e9dd333ecc9a01782c26d2.jpg]]></gameLogo>\r\n\t\t\t<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/570/d4f836839254be08d8e9dd333ecc9a01782c26d2_thumb.jpg]]></gameLogoSmall>\r\n\t\t\t<hoursPlayed>9.5</hoursPlayed>\r\n\t\t\t<hoursOnRecord>68.5</hoursOnRecord>\r\n\t\t</mostPlayedGame>\r\n\t\t<mostPlayedGame>\r\n\t\t\t<gameName><![CDATA[Awesomenauts]]></gameName>\r\n\t\t\t<gameLink><![CDATA[http://steamcommunity.com/app/204300]]></gameLink>\r\n\t\t\t<gameIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/204300/4996933171d0804bd0ceb7b9a0e224b3139d18ba.jpg]]></gameIcon>\r\n\t\t\t<gameLogo><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/204300/a2eba6157703c60bfcc199f06df5f1568c9835bb.jpg]]></gameLogo>\r\n\t\t\t<gameLogoSmall><![CDATA[http://media.steampowered.com/steamcommunity/public/images/apps/204300/a2eba6157703c60bfcc199f06df5f1568c9835bb_thumb.jpg]]></gameLogoSmall>\r\n\t\t\t<hoursPlayed>1.8</hoursPlayed>\r\n\t\t\t<hoursOnRecord>1.8</hoursOnRecord>\r\n\t\t\t<statsName><![CDATA[204300]]></statsName>\r\n\t\t</mostPlayedGame>\r\n\t</mostPlayedGames>\r\n\r\n\r\n\t<weblinks>\r\n\t\t<weblink>\r\n\t\t\t<link><![CDATA[http://twitter.com/lunks/]]></link>\r\n\t\t\t<title><![CDATA[Twitter]]></title>\r\n\t\t</weblink>\r\n\t</weblinks>\r\n\r\n</profile>"
+    http_version: 
+  recorded_at: Thu, 20 Dec 2012 16:15:15 GMT
+recorded_with: VCR 2.3.0

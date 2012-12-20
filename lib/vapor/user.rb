@@ -5,6 +5,10 @@ module Vapor
     attr_reader :steam_id
 
     def initialize(steam_id)
+      if steam_id =~ /steamcommunity\.com/
+        steam_id = steam_id.match(/\/id\/(\w+)/)[1]
+      end
+      raise(InvalidUsernameError, steam_id) if steam_id =~ / /
       if steam_id.is_a? Integer || steam_id =~ /\A\d+\Z/
         @steam_id = steam_id
       else
@@ -30,11 +34,26 @@ module Vapor
     def fetch_real_id(username)
       user_page = client.get("http://steamcommunity.com/id/#{username}?xml=1")
       raise APINotAvailableError if user_page.status == 503
-      REXML::Document.new(user_page.body).elements['profile/steamID64'].text
+      if id = REXML::Document.new(user_page.body).elements['profile/steamID64']
+        id.text
+      else
+        raise UserNotFoundError, username
+      end
     end
 
     def client
       Vapor.api.client
+    end
+  end
+
+  class UserNotFoundError < RuntimeError
+    def initialize(username)
+      super("#{username} does not appear to be a valid Steam ID.")
+    end
+  end
+  class InvalidUsernameError < RuntimeError
+    def initialize(username)
+      super("#{username} is an invalid username.")
     end
   end
 end

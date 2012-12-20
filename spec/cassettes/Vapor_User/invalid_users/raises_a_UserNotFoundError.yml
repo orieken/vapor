@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/amaekjlkj?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      Date:
+      - Wed, 19 Dec 2012 19:43:01 GMT
+      Host:
+      - steamcommunity.com
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        U3RlYW1fTGFuZ3VhZ2U9ZW5nbGlzaDsgZXhwaXJlcz1Nb24sIDE4LURlYy0y
+        MDE3IDE5OjQzOjA0IEdNVDsgcGF0aD0v
+      - !binary |-
+        c2Vzc2lvbmlkPU9UTTBNREl3T0RNejsgcGF0aD0v
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMDo0MzowNCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTQ0
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAxOTo0MzowNCBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MTk5NTUxNDIzNA==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><response><error><![CDATA[The
+        specified profile could not be found.]]></error></response>
+    http_version: 
+  recorded_at: Wed, 19 Dec 2012 19:43:05 GMT
+recorded_with: VCR 2.3.0
