@@ -1,0 +1,142 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/ggleytonb?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        U3RlYW1fTGFuZ3VhZ2U9ZW5nbGlzaDsgZXhwaXJlcz1Nb24sIDE4LURlYy0y
+        MDE3IDIwOjA3OjI3IEdNVDsgcGF0aD0v
+      - !binary |-
+        c2Vzc2lvbmlkPU1qQTFNRGcwTXpVNU1nJTNEJTNEOyBwYXRoPS8=
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMTowNzoyNyBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw7IGNoYXJzZXQ9dXRmLTg=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        OTA3
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMDowNzoyOCBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MTk5ODk0NDU0NQ==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><profile>\r\n\t<steamID64>76561198030421261</steamID64>\r\n\t<steamID><![CDATA[Gustavo]]></steamID>\r\n\t<onlineState>offline</onlineState>\r\n\t<stateMessage><![CDATA[]]></stateMessage>\r\n\t<privacyState>friendsonly</privacyState>\r\n\t<visibilityState>1</visibilityState>\r\n\t<avatarIcon><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/54/541927c4a76189cd1011df286a31601b12ce3f12.jpg]]></avatarIcon>\r\n\t<avatarMedium><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/54/541927c4a76189cd1011df286a31601b12ce3f12_medium.jpg]]></avatarMedium>\r\n\t<avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/54/541927c4a76189cd1011df286a31601b12ce3f12_full.jpg]]></avatarFull>\r\n\t<vacBanned>0</vacBanned>\r\n\t<tradeBanState>None</tradeBanState>\r\n\t<isLimitedAccount>0</isLimitedAccount>\r\n</profile>"
+    http_version: 
+  recorded_at: Wed, 19 Dec 2012 20:07:28 GMT
+- request:
+    method: get
+    uri: http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=8BDCBAAA1E46E207931AA2950110AEB2&steamids=76561198030421261
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMDowNzo0NSBHTVQ=
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMDowNzo0NSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NzA4
+    body:
+      encoding: US-ASCII
+      string: ! "{\n\t\"response\": {\n\t\t\"players\": [\n\t\t\t{\n\t\t\t\t\"steamid\":
+        \"76561198030421261\",\n\t\t\t\t\"communityvisibilitystate\": 2,\n\t\t\t\t\"profilestate\":
+        1,\n\t\t\t\t\"personaname\": \"Gustavo\",\n\t\t\t\t\"lastlogoff\": 1355936075,\n\t\t\t\t\"profileurl\":
+        \"http://steamcommunity.com/id/ggleytonb/\",\n\t\t\t\t\"avatar\": \"http://media.steampowered.com/steamcommunity/public/images/avatars/54/541927c4a76189cd1011df286a31601b12ce3f12.jpg\",\n\t\t\t\t\"avatarmedium\":
+        \"http://media.steampowered.com/steamcommunity/public/images/avatars/54/541927c4a76189cd1011df286a31601b12ce3f12_medium.jpg\",\n\t\t\t\t\"avatarfull\":
+        \"http://media.steampowered.com/steamcommunity/public/images/avatars/54/541927c4a76189cd1011df286a31601b12ce3f12_full.jpg\",\n\t\t\t\t\"personastate\":
+        0\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
+    http_version: 
+  recorded_at: Wed, 19 Dec 2012 20:07:28 GMT
+- request:
+    method: get
+    uri: http://steamcommunity.com/id/ggleytonb/games?xml=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hl
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        U3RlYW1fTGFuZ3VhZ2U9ZW5nbGlzaDsgZXhwaXJlcz1Nb24sIDE4LURlYy0y
+        MDE3IDIwOjA3OjI5IEdNVDsgcGF0aD0v
+      - !binary |-
+        c2Vzc2lvbmlkPU5ESXlNelEyTlRBNDsgcGF0aD0v
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMTowNzoyOSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjIw
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxOSBEZWMgMjAxMiAyMDowNzozMCBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        MjE3NzIzNDUwOQ==
+      !binary "QWdl":
+      - !binary |-
+        MA==
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+    body:
+      encoding: US-ASCII
+      string: ! "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><gamesList>\r\n\t<steamID64>76561198030421261</steamID64>\r\n\t<steamID><![CDATA[Gustavo]]></steamID>\r\n\t<error><![CDATA[This
+        profile is private.]]></error>\r\n</gamesList>\r\n"
+    http_version: 
+  recorded_at: Wed, 19 Dec 2012 20:07:30 GMT
+recorded_with: VCR 2.3.0
