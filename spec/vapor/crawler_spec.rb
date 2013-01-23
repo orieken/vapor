@@ -7,7 +7,7 @@ module Vapor
 
     describe "#games_for", :vcr do
       it "fetches a games list for an user" do
-        crawler.games_for(user).count.should == 109
+        crawler.games_for(user).count.should == 118
       end
     end
     it "raises a UserPrivateError if user is private", :vcr do
