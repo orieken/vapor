@@ -31,7 +31,7 @@ module Vapor
     describe "games", :vcr do
       let(:games) {User.new("pedronascimento").games}
       it "fetches the right amount of games" do
-        games.count.should == 111
+        games.count.should == 118
       end
     end
   end
