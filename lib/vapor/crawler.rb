@@ -13,7 +13,6 @@ module Vapor
     end
     private
     def fetch(url)
-      #binding.pry
       doc = client.get(url, query: { xml: 1 }).body
       Nokogiri::Slop(doc)
     end
